@@ -34,9 +34,3 @@ window.onload = function() {
     });
 };
 
-document.getElementById("contact-form").onsubmit = function() {myFunction()};
-
-function myFunction() {
-  alert("The form was submitted");
-}
-
