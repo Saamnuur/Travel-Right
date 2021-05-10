@@ -97,6 +97,26 @@ body, html {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
+/*Contact Us*/
+
+.contact-area {
+  padding: 1rem;
+  background-image: url(../images/countryside.jpg); no-repeat center fixed;
+  height: auto;
+  color: white;
+  font-size: 1rem;
+}
+
+#contact-form {
+  position: relative;
+  max-width: 70vw;
+  margin-top: 1.5rem;
+  margin-left: auto;
+  Margin-right: auto;
+  margin-bottom: 20rem;
+  background-color: rgba(182 , 227, 255, 0.5);
+  border-radius: 1rem;
+  padding: 2rem;;
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
@@ -110,6 +130,3 @@ body, html {
       right: 17px;
   }
 }
-
-
-  }
