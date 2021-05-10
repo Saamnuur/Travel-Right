@@ -44,7 +44,12 @@ body, html {
 }
 
 /*Nav Bar*/
+/*Nav container*/
 
+.nav-cont {
+  background-color: #b6e3ff;
+  padding: 0.3rem;
+}
 /* Dropdown Button */
 .dropbtn {
   background-color: #3498DB;
@@ -53,6 +58,7 @@ body, html {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  border-radius: 8rem;
 }
 
 /* Dropdown button on hover & focus */
@@ -64,6 +70,7 @@ body, html {
 .dropdown {
   position: relative;
   display: inline-block;
+  
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -90,6 +97,19 @@ body, html {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-/*Map*/
 
-div#map {min-height: 360px;}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+  .nav-cont {
+      right: 17px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-cont {
+      right: 17px;
+  }
+}
+
+
+  }
