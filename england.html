@@ -35,20 +35,35 @@
     </div>
     <!--Page Title-->
     <div class="container-fluid">
-            <div class="england-img">
-                <img src="./assets/images/streets.jpg" alt="England" class="center">
-            </div>
+        <div class="england-img">
+            <img src="./assets/images/streets.jpg" alt="England" class="center">
+        </div>
         <div class="row">
             <div class="col england-section">
                 <h1>England</h1>
-                <p>England is a country that is part of the United Kingdom. It shares land borders with Wales to its west and Scotland to its north. The Irish Sea lies northwest of England and the Celtic Sea to the southwest. England is separated from continental Europe by the North Sea to the east and the English Channel to the south.</p>
+                <p>England is a country that is part of the United Kingdom. It shares land borders with Wales to its
+                    west and Scotland to its north. The Irish Sea lies northwest of England and the Celtic Sea to the
+                    southwest. England is separated from continental Europe by the North Sea to the east and the English
+                    Channel to the south.</p>
             </div>
         </div>
     </div>
     <!--Map Section-->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+        <div id="map"></div>
+    </div>
+    </div>
+    </section>
     <!--Link to My JS-->
+    <script src="assets/js/map.js"></script>
     <script src="assets/js/script.js"></script>
-    <script src="assets/js/script.js"></script>
+    <!--Google Map JS-->
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAK7zm7blz0WWO3gniRpae1lp4Gc_1meYc&callback=initMap"></script>
     <!--Link to Bootsrap JS-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
