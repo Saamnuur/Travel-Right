@@ -144,6 +144,10 @@ p {
   font-size: 1.1rem;
 }
 
+/*Map*/
+
+div#map {min-height: 360px;}
+
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
   .nav-cont {
